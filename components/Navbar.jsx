@@ -14,7 +14,7 @@ const Navbar = () => {
   const { data: session } = useSession();
 
   return (
-    <div className="sticky bg-[#040714] top-0 z-[1000] flex items-center px-10 md:px-12 h-[72px]">
+    <header className="sticky bg-[#040714] top-0 z-[1000] flex items-center px-10 md:px-12 h-[72px]">
       <Image
         src={logo}
         alt=""
@@ -65,7 +65,7 @@ const Navbar = () => {
           onClick={signOut}
         />
       )}
-    </div>
+    </header>
   );
 };
 //hola

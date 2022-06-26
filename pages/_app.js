@@ -1,26 +1,12 @@
-import Navbar from "../components/Navbar";
 import "../styles/globals.css";
 import { SessionProvider } from "next-auth/react";
-import Hero from "../components/Hero";
 
-function MyApp({ Component, pageProps: { session, ...pageProps } }) {
+function MyApp({ Component, pageProps }) {
   return (
-    <SessionProvider session={session}>
-      <Navbar />
-      <Hero />
+    <SessionProvider session={pageProps.session}>
       <Component {...pageProps} />
     </SessionProvider>
   );
 }
 
 export default MyApp;
-
-export async function getServerSideProps(context) {
-  const session = await getSession(context);
-
-  return {
-    props: {
-      session,
-    },
-  };
-}
