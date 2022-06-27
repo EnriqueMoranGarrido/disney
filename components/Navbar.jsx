@@ -8,7 +8,7 @@ import {
   StarIcon,
 } from "@heroicons/react/solid";
 
-import { signIn, signOut, useSession } from "next-auth/react";
+import { signIn, signOut, useSession, getSession } from "next-auth/react";
 
 const Navbar = () => {
   const { data: session } = useSession();
@@ -59,11 +59,15 @@ const Navbar = () => {
           Login
         </button>
       ) : (
-        <img
-          src={session.user.image}
-          className="ml-auto h-12 w-12 rounded-full object-cover cursor-pointer"
-          onClick={signOut}
-        />
+        <div className=" absolute right-1 ">
+          <Image
+            src={session.user.image}
+            className=" rounded-full object-cover cursor-pointer  "
+            onClick={signOut}
+            width={60}
+            height={60}
+          />
+        </div>
       )}
     </header>
   );

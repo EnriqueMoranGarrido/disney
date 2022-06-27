@@ -1,25 +1,27 @@
-import React from "react";
 import Image from "next/image";
+import { Player } from "video-react";
 
-const Brands = () => {
+function Brands() {
   return (
     <section className="flex flex-col md:flex-row justify-center items-center mt-10 gap-6 px-8 max-w-[1400px] mx-auto">
       <div className="brand group">
-        <Image src="/images/disnep.png" layout="fill" objectFit="cover" />
+        <Image src="/images/disney.png" layout="fill" objectFit="cover" />
         <video
           autoPlay
           loop
-          playsInline
+          muted
           className="hidden group-hover:inline rounded-lg object-cover"
         >
           <source src="/videos/disney.mp4" type="video/mp4" />
         </video>
       </div>
+
       <div className="brand group">
         <Image src="/images/pixar.png" layout="fill" objectFit="cover" />
         <video
           autoPlay
           loop
+          muted
           playsInline
           className="hidden group-hover:inline rounded-lg object-cover"
         >
@@ -32,6 +34,7 @@ const Brands = () => {
         <video
           autoPlay
           loop
+          muted
           playsInline
           className="hidden group-hover:inline rounded-lg object-cover"
         >
@@ -44,6 +47,7 @@ const Brands = () => {
         <video
           autoPlay
           loop
+          muted
           playsInline
           className="hidden group-hover:inline rounded-lg object-cover"
         >
@@ -59,6 +63,7 @@ const Brands = () => {
         />
         <video
           autoPlay
+          muted
           loop
           playsInline
           className="hidden group-hover:inline rounded-lg object-cover"
@@ -68,6 +73,6 @@ const Brands = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Brands;
