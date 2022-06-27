@@ -5,7 +5,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: (theme) => ({
+        home: "url('/images/background.png')",
+      }),
+    },
     screens: {
       sm: "640px",
       // => @media (min-width: 640px) { ... }
