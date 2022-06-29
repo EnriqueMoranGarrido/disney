@@ -15,16 +15,20 @@ const Navbar = () => {
 
   return (
     <header className="sticky bg-[#040714] top-0 z-[1000] flex items-center px-10 md:px-12 h-[72px]">
-      <Image
-        src={logo}
-        alt=""
-        width={80}
-        height={80}
-        className="cursor-pointer"
-      />
+      <a href="/" s>
+        {" "}
+        <Image
+          src={logo}
+          alt=""
+          width={80}
+          height={80}
+          className="cursor-pointer"
+        />
+      </a>
+
       {session && (
         <div className="hidden ml-10 md:flex items-center space-x-6">
-          <a className="header-link group">
+          <a className="header-link group" href="/">
             <HomeIcon className="h-4" />
             <span className="span">Home</span>
           </a>
