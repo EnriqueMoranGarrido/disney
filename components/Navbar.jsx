@@ -29,10 +29,10 @@ const Navbar = () => {
 
       {session && (
         <div className="hidden ml-10 md:flex items-center space-x-6">
-          <a className="header-link group" href="/">
+          <Link className="header-link group" href="/">
             <HomeIcon className="h-4" />
             <span className="span">Home</span>
-          </a>
+          </Link>
           <a className="header-link group">
             <SearchIcon className="h-4" />
             <span className="span">Search</span>
