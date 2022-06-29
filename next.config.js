@@ -10,6 +10,8 @@ module.exports = {
       "lh3.googleusercontent.com",
       "robohash.org",
       "static-cdn.jtvnw.net",
+      "https://s3.console.aws.amazon.com",
+      "disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com",
     ],
   },
 };
