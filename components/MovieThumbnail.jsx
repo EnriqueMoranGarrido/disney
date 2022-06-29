@@ -12,7 +12,7 @@ function MovieThumbnail({ movie }) {
   return (
     <div
       className="flex min-w-[250px] min-h-[170px] md:min-w-[260px] md:min-h-[150px] rounded-lg overflow-hidden shadow-xl cursor-pointer border-[3px] border-[#f9f9f9] border-opacity-10  hover:border-opacity-80 hover:shadow-2xl transform hover:scale-105 transition duration-300"
-      onClick={() => router.push(`/movie/${(movie.urlName, movie.id)}`)}
+      onClick={() => router.push(`/movie/${movie.urlName}`)}
     >
       <Image
         src={movie.thumbnail}

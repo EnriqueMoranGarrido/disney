@@ -12,6 +12,8 @@ export default [
       traje de alta tecnología y jura proteger al mundo como Iron Man.`,
     background:
       "https://disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com/images/marvel/phase1/ironman/IronMan/ironman-bg.jpeg",
+    trailer:
+      "https://disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com/y2mate.com+-+Rick+Astley++Never+Gonna+Give+You+Up+video+oficial++Espa%C3%B1ol_1080p.mp4",
   },
 
   {
@@ -26,6 +28,8 @@ export default [
     la Tierra para vivir entre humanos. Desde allí, debe impedir que su hermano Loki destrone a Odín, imponiendo su terrible gobierno en Asgard.`,
     background:
       "https://disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com/images/marvel/phase1/ironman2/IronMan2/ironman2-bg.jpeg",
+    trailer:
+      "https://disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com/y2mate.com+-+Rick+Astley++Never+Gonna+Give+You+Up+video+oficial++Espa%C3%B1ol_1080p.mp4",
   },
   {
     id: "2",
@@ -34,10 +38,12 @@ export default [
     thumbnail:
       "https://disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com/images/marvel/phase1/captainamerica-firstavenger/CaptainAmerica-FirstAvenger/captainamerica-firstavenger-thumbnail.jpeg",
     title:
-      "https://disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com/images/marvel/phase1/captainamerica-firstavenger/CaptainAmerica-FirstAvenger/captainamerica-firstavenger-thumbnail.jpeg",
+      "https://disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com/images/marvel/phase1/captainamerica-firstavenger/CaptainAmerica-FirstAvenger/captainamerica-firstavenger-title.png",
     description: `Tras ser rechazado por el ejército, Steve Rogers se ofrece para una investigación secreta que lo convierte en el Capitán América, un superhéroe dedicado a defender los valores de su país y pelear por la libertad como la mejor arma contra el mal.`,
     background:
       "https://disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com/images/marvel/phase1/captainamerica-firstavenger/CaptainAmerica-FirstAvenger/captainamerica-firstavenger-bg.jpeg",
+    trailer:
+      "https://disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com/y2mate.com+-+Rick+Astley++Never+Gonna+Give+You+Up+video+oficial++Espa%C3%B1ol_1080p.mp4",
   },
   {
     id: "3",
@@ -50,6 +56,8 @@ export default [
     description: `El gran Thor quiere ascender al trono del fantástico reino de Asgard, pero su arrogancia reinicia una guerra y es desterrado a la Tierra para vivir entre humanos. Desde allí, debe impedir que su hermano Loki destrone a Odín, imponiendo su terrible gobierno en Asgard.`,
     background:
       "https://disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com/images/marvel/phase1/thor/Thor/thor-bg.jpeg",
+    trailer:
+      "https://disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com/y2mate.com+-+Rick+Astley++Never+Gonna+Give+You+Up+video+oficial++Espa%C3%B1ol_1080p.mp4",
   },
   {
     id: "4",
@@ -62,5 +70,7 @@ export default [
     description: `Nick Fury, director de la agencia internacional de paz conocida como S.H.I.E.L.D., necesita un equipo para evitar un desastre mundial. Los Avengers Iron Man, el Increíble Hulk, Thor y el Capitán América, se unen a Black Widow y Hawkeye para luchar contra un enemigo inesperado: el dios asgardiano Loki, quien comanda un poderoso ejército Chitauri que amenaza la seguridad mundial.`,
     background:
       "https://disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com/images/marvel/phase1/avengers-the-avengers/Avengers-TheAvengers/avengers-theavengers-bg.jpeg",
+    trailer:
+      "https://disney-clone-emg-storage-d71154a9162231-staging.s3.amazonaws.com/y2mate.com+-+Rick+Astley++Never+Gonna+Give+You+Up+video+oficial++Espa%C3%B1ol_1080p.mp4",
   },
 ];
