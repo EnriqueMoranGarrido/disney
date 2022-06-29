@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import logo from "../public/images/logo.svg";
 import {
   HomeIcon,
@@ -15,7 +16,7 @@ const Navbar = () => {
 
   return (
     <header className="sticky bg-[#040714] top-0 z-[1000] flex items-center px-10 md:px-12 h-[72px]">
-      <a href="/" s>
+      <Link href="/">
         {" "}
         <Image
           src={logo}
@@ -24,7 +25,7 @@ const Navbar = () => {
           height={80}
           className="cursor-pointer"
         />
-      </a>
+      </Link>
 
       {session && (
         <div className="hidden ml-10 md:flex items-center space-x-6">
