@@ -17,7 +17,6 @@ const Navbar = () => {
   return (
     <header className="sticky bg-[#040714] top-0 z-[1000] flex items-center px-10 md:px-12 h-[72px]">
       <Link href="/">
-        {" "}
         <Image
           src={logo}
           alt=""
@@ -29,10 +28,13 @@ const Navbar = () => {
 
       {session && (
         <div className="hidden ml-10 md:flex items-center space-x-6">
-          <Link className="header-link group" href="/">
-            <HomeIcon className="h-4" />
-            <span className="span">Home</span>
+          <Link href="/">
+            <div className="header-link group">
+              <HomeIcon className="h-4" />
+              <span className="span">Home</span>
+            </div>
           </Link>
+
           <a className="header-link group">
             <SearchIcon className="h-4" />
             <span className="span">Search</span>

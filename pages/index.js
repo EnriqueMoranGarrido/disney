@@ -15,8 +15,11 @@ export default function Home({
   const { data: session } = useSession();
 
   // TEST
-  //   GOOGLE_CLIENT_ID=759486537762-bq3pa2eoge3d8vl13kjt4gc437csa17m.apps.googleusercontent.com
-  // GOOGLE_CLIENT_SECRET=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
+  //GOOGLE_CLIENT_ID=759486537762-bq3pa2eoge3d8vl13kjt4gc437csa17m.apps.googleusercontent.com
+  //GOOGLE_CLIENT_SECRET=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
+  //NEXTAUTH_URL=http://localhost:3000
+
+  // REAL
 
   // REAL
   //   GOOGLE_CLIENT_ID=759486537762-o74ulf605p0eg6vlfkuaaldc0ro944c9.apps.googleusercontent.com
