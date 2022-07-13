@@ -27,6 +27,8 @@ function Movie({ movie }) {
     }
   }, []);
 
+  const trailer = movie.trailer;
+
   return (
     <div className="relative">
       <Head>
@@ -126,7 +128,7 @@ function Movie({ movie }) {
                   controls
                   className="inline rounded-lg object-cover w-full"
                 >
-                  <source src="/videos/memeVideo.mp4" type="video/mp4" />
+                  <source src={trailer} type="video/mp4" />
                 </video>
               </div>
             ) : null}
@@ -147,7 +149,7 @@ export async function getServerSideProps(context) {
   const movieUrlName = context.query.urlName;
   const movieId = marvelMovies.findIndex(findMyMovie);
   const movie = marvelMovies[movieId];
-  console.log(movie);
+  // console.log(movie);
   // const { id } = context.query;
   // const movie = marvelMovies[context.query.id];
   // console.log(movie);
