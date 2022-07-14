@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import Slider from "../components/Slider";
 import Brands from "../components/Brands";
 import MoviesCollection from "../components/MoviesCollection";
+import MarvelMovie from "../public/assets/data/marvelMovies";
 
 export default function Home({
   popularMovies,
@@ -41,6 +42,16 @@ export default function Home({
           <MoviesCollection
             results={popularMovies}
             title="Marvel Cinematic Universe: Phase one"
+            movies={MarvelMovie.filter(function (movie) {
+              return movie.phase === 1;
+            })}
+          />
+          <MoviesCollection
+            results={popularMovies}
+            title="Marvel Cinematic Universe: Phase two"
+            movies={MarvelMovie.filter(function (movie) {
+              return movie.phase === 2;
+            })}
           />
         </main>
       )}

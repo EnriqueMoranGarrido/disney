@@ -52,12 +52,12 @@ function Movie({ movie }) {
             {/* <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
               {movie.name}
             </h1> */}
-            <div className="relative top-5 w-[40%]  justify-center items-center ">
+            <div className="relative top-5 w-[35%]  justify-center items-center ">
               <Image
                 src={movie.title}
                 layout="responsive"
-                width={"500"}
-                height={"400"}
+                width={"400"}
+                height={"200"}
               />
             </div>
 

@@ -11,6 +11,7 @@ export default [
       traje de alta tecnología y jura proteger al mundo como Iron Man.`,
     background: "/assets/DisneyContent/Marvel/Phase1/IronMan/ironman-bg.jpeg",
     trailer: "/videos/memeVideo.mp4",
+    phase: 1,
   },
 
   {
@@ -24,6 +25,7 @@ export default [
     la Tierra para vivir entre humanos. Desde allí, debe impedir que su hermano Loki destrone a Odín, imponiendo su terrible gobierno en Asgard.`,
     background: "/assets/DisneyContent/Marvel/Phase1/IronMan2/ironman2-bg.jpeg",
     trailer: "/videos/memeVideo.mp4",
+    phase: 1,
   },
   {
     id: "2",
@@ -37,6 +39,7 @@ export default [
     background:
       "/assets/DisneyContent/Marvel/Phase1/CaptainAmerica-FirstAvenger/captainamerica-firstavenger-bg.jpeg",
     trailer: "/videos/memeVideo.mp4",
+    phase: 1,
   },
   {
     id: "3",
@@ -47,6 +50,7 @@ export default [
     description: `El gran Thor quiere ascender al trono del fantástico reino de Asgard, pero su arrogancia reinicia una guerra y es desterrado a la Tierra para vivir entre humanos. Desde allí, debe impedir que su hermano Loki destrone a Odín, imponiendo su terrible gobierno en Asgard.`,
     background: "/assets/DisneyContent/Marvel/Phase1/Thor/thor-bg.jpeg",
     trailer: "/videos/memeVideo.mp4",
+    phase: 1,
   },
   {
     id: "4",
@@ -60,5 +64,46 @@ export default [
     background:
       "/assets/DisneyContent/Marvel/Phase1/Avengers-TheAvengers/avengers-theavengers-bg.jpeg",
     trailer: "/videos/memeVideo.mp4",
+    phase: 1,
+  },
+  {
+    id: "5",
+    name: "IRON MAN 3",
+    urlName: "ironman3",
+    thumbnail:
+      "/assets/DisneyContent/Marvel/Phase2/IronMan3/ironman3-thumbnail.jpeg",
+    title: "/assets/DisneyContent/Marvel/Phase2/IronMan3/ironman3-title.png",
+    description: `Con su mundo destruido, Stark busca a los responsables poniendo a prueba su temple. Acorralado, debe sobrevivir a través de su ingenio y sus instintos para proteger a sus allegados. Mientras lucha para regresar, Stark descubre la respuesta de la pregunta que lo obsesionaba: ¿El hombre hace al traje o el traje hace al hombre?`,
+    background: "/assets/DisneyContent/Marvel/Phase2/IronMan3/ironman3-bg.jpeg",
+    trailer: "/videos/memeVideo.mp4",
+    phase: 2,
+  },
+  {
+    id: "6",
+    name: "THOR DARKWORLD",
+    urlName: "thor-darkworld",
+    thumbnail:
+      "/assets/DisneyContent/Marvel/Phase2/Thor-DarkWorld/thor-darkworld-thumbnail.jpeg",
+    title:
+      "/assets/DisneyContent/Marvel/Phase2/Thor-DarkWorld/thor-darkworld-title.png",
+    description: `Mientras Thor lucha por restaurar el orden en todo el cosmos, una antigua raza liderada por el vengativo Malekith regresa para sumir al universo nuevamente en la oscuridad. Lanzándose en esta aventura personal y muy peligrosa, Thor es obligado a aliarse con el tramposo Loki para salvar a su gente y a sus seres queridos… y a nuestro universo.`,
+    background:
+      "/assets/DisneyContent/Marvel/Phase2/Thor-DarkWorld/thor-darkworld-bg.jpeg",
+    trailer: "/videos/memeVideo.mp4",
+    phase: 2,
+  },
+  {
+    id: "7",
+    name: "CAPTAIN AMERICA AND THE WINTER SOLDIER",
+    urlName: "captain-america-and-the-winter-soldier",
+    thumbnail:
+      "/assets/DisneyContent/Marvel/Phase2/CaptainAmerica-WinterSoldier/captainamerica-wintersoldier-thumbnail.jpeg",
+    title:
+      "/assets/DisneyContent/Marvel/Phase2/CaptainAmerica-WinterSoldier/captainamerica-wintersoldier-title.png",
+    description: `En Washington D.C. en el presente, Steve Rogers, conocido como Capitán América, se une a Black Widow y Falcon para pelear contra un poderoso enemigo desconocido.`,
+    background:
+      "/assets/DisneyContent/Marvel/Phase2/CaptainAmerica-WinterSoldier/captainamerica-wintersoldier-bg.jpeg",
+    trailer: "/videos/memeVideo.mp4",
+    phase: 2,
   },
 ];
